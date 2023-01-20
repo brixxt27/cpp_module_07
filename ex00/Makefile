@@ -1,15 +1,8 @@
-NAME	=	identify_real_type
+NAME	=	start_with_a_few_functions
 
-SRCS	=	main.cpp			\
-			Base.cpp			\
-			A.cpp				\
-			B.cpp				\
-			C.cpp				\
+SRCS	=	main.cpp
 
 INCS	=	\
-			Base.h			\
-			A.h				\
-			B.h				\
-			C.h				\
+			whatever.h
 
 include ../template.mk
