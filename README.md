@@ -53,12 +53,12 @@ max(c, d) = chaine2
 
 # Exercise 01: Iter 
 ## Usage
-'''
+```
 git clone https://github.com/brixxt27/cpp_module_07.git
 cd cpp_module_07/ex01
 make
 ./iter
-'''
+```
 ## Summary
 - Turn-in directory : ex01/
 - Files to turn in : Makefile, main.cpp, iter.{h, hpp}
@@ -68,12 +68,12 @@ make
 
 # Exercise 02: Array 
 ## Usage
-'''
+```
 git clone https://github.com/brixxt27/cpp_module_07.git
 cd cpp_module_07/ex02
 make
 ./array
-'''
+```
 ## Summary
 - Turn-in directory : ex02/
 - Files to turn in : Makefile, main.cpp, Array.{h, hpp} and optional file: Array.tpp
