@@ -3,12 +3,12 @@
 
 # Exercise 00: Start with a few functions 
 ## Usage
-'''
+```
 git clone https://github.com/brixxt27/cpp_module_07.git
 cd cpp_module_07/ex00
 make
 ./start_with_a_few_functions
-'''
+```
 ## Summary
 - Turn-in directory : ex00/
 - Files to turn in : Makefile, main.cpp, whatever.{h, hpp}
