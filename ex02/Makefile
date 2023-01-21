@@ -1,15 +1,8 @@
-NAME	=	identify_real_type
+NAME	=	array
 
-SRCS	=	main.cpp			\
-			Base.cpp			\
-			A.cpp				\
-			B.cpp				\
-			C.cpp				\
+SRCS	=	main.cpp
 
 INCS	=	\
-			Base.h			\
-			A.h				\
-			B.h				\
-			C.h				\
+			Array.h
 
 include ../template.mk

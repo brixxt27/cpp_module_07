@@ -1,4 +1,4 @@
-NAME	=	identify_real_type
+NAME	=	iter
 
 SRCS	=	\
 			main.cpp
