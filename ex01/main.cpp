@@ -1,13 +1,5 @@
 #include "iter.h"
 
-//class Base
-//{
-//public:
-//	Base() : a(1) {}
-//private:
-//	int	a;
-//};
-
 int	main()
 {
 	int				editable_arr[5] = {1, 2, 3, 4, 5};
