@@ -1,15 +1,9 @@
 NAME	=	identify_real_type
 
-SRCS	=	main.cpp			\
-			Base.cpp			\
-			A.cpp				\
-			B.cpp				\
-			C.cpp				\
+SRCS	=	\
+			main.cpp
 
 INCS	=	\
-			Base.h			\
-			A.h				\
-			B.h				\
-			C.h				\
+			iter.h
 
 include ../template.mk
