@@ -1,6 +1,8 @@
 #ifndef ARRAY_H
 #define ARRAY_H
 
+#include <iostream>
+
 template <typename T>
 class Array
 {
@@ -11,10 +13,12 @@ public:
 	Array&	operator=(const Array& rhs);
 	virtual ~Array();
 
+	T&	operator[](const unsigned int idx) const;
 	unsigned int	size() const;
 
 private:
-	T	element;
+	T*				mArr;
+	unsigned int	mSize;
 };
 
 #endif
