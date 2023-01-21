@@ -41,7 +41,9 @@ Array<T>::Array(const Array& other)
 {
 	mArr = new T[mSize];
 
-	std::memcpy(mArr, other.mArr, mSize + 1);
+	for (unsigned int i = 0; i < mSize; i++) {
+		mArr[i] = other.mArr[i];
+	}
 }
 
 template <typename T>
@@ -51,10 +53,12 @@ Array<T>&	Array<T>::operator=(const Array& rhs)
 		return *this;
 	
 	delete[] mArr;
+	mArr = new T[rhs.mSize];
 	mSize = rhs.mSize;
-	mArr = new T[mSize];
 
-	std::memcpy(mArr, rhs.mArr, mSize + 1);
+	for (unsigned int i = 0; i < mSize; i++) {
+		mArr[i] = rhs.mArr[i];
+	}
 	return *this;
 }
 
@@ -68,7 +72,7 @@ template <typename T>
 T&	Array<T>::operator[](const unsigned int idx) const
 {
 	if (idx < 0 || idx > mSize - 1)
-		throw std::out_of_range("Out of range!");
+		throw std::out_of_range("**** Out of range! ****");
 	return mArr[idx];
 }
 
