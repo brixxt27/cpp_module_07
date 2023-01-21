@@ -39,7 +39,7 @@ template <typename T>
 Array<T>::Array(const Array& other)
 	: mSize(other.mSize)
 {
-	mArr = new T(mSize);
+	mArr = new T[mSize];
 
 	std::memcpy(mArr, other.mArr, mSize + 1);
 }
